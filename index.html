@@ -4,37 +4,52 @@
     <meta charset="UTF-8">
     <title>Вид с мансарды: кто, как и зачем достраивает центр Санкт-Петербурга</title>
     <style>
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
         h1, h2, h3 {
             font-family: sans-serif;
+            grid-column: 2;
+        }
+        iframe {
+            grid-column: 2;
+            margin: 30px 0;
         }
         p {
             font-size: 21px;
             line-height: 30px;
+            grid-column: 2;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
         h3 {
             font-size: 24px;
             line-height: 34px;
+            margin-top: 30px;
+            margin-bottom: 0px;
         }
         body {
-            width: 700px;
-            margin: 50px auto;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 80ch) minmax(1.2rem, 1fr);
         }
         .lead {
             font-size: 24px;
             font-family: sans-serif;
         }
-        @media (min-width: 375px) and (max-width: 480px) {
-            body {
-                width: 100%;
-                padding: 30px;
-            }
-        }
     </style>
 </head>
 <body>
     <h1>Вид с мансарды: кто, как и зачем достраивает центр <nobr>Санкт-Петербурга</nobr></h1>
-
-    <h2>Исследование Стрелки</h2>
 
     <p class="lead"><a href="https://www.reformagkh.ru/opendata" target="_blank">По открытым данным реформы ЖКХ</a>, в центральных районах Санкт-Петербурга расположены две тысячи жилых домов общей площадью 300 000 м².</p>
 
