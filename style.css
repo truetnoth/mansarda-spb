@@ -72,21 +72,31 @@ img {
     margin-top: 30px;
     padding-top: 0;
 }
+.pos-likely {
+    margin-top: 30px!important;
+    grid-column: 2;
+}
 
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 28px;
+        line-height: 35px;
     }
     h2 {
         font-size: 22px;
     }
     p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .lead {
         font-size: 18px;
+        line-height: 28px;
     }
     .head-img {
-        display: none;
+        width: 100%;
     }
-    body {
-        background-color: red;
+    iframe {
+        width: 100%;
     }
 }
